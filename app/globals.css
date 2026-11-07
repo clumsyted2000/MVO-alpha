@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* LeaderLine не должен перекрывать клики по карточкам */
+.leader-line {
+  pointer-events: none !important;
+}
